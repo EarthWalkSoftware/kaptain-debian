@@ -15,7 +15,7 @@ _____________________
 
 ### kaptain-debian
 
-*kaptain-debian* creates a docker container built on a Debian 9.2 base image.  The kaptain-debian container is designed using layered containers:
+*kaptain-debian* creates a docker container built on a *Debian 9.2* base image.  The *kaptain-debian* container is designed using layered containers:
 
 - *library/Debian:9.2* - the Debian 9.2 minimal base image,
 - *EarthWalkSoftware/Debian:9.2* - (modified *Nimmis/Ubuntu:latest*) to add supervisor functions,  
@@ -24,7 +24,7 @@ _____________________
 
 These inter-dependent containers form a base *X11 video display stack* ready to be extended and integrated into the docker host display.
 
-The *EarthWalkSoftware/kaptain-debian* docker container installs the Kaptain software and configures the container for use by a calling container.
+The *EarthWalkSoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode.  
 
 _____________________
 
