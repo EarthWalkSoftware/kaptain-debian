@@ -33,7 +33,11 @@ _____________________
 
 These inter-dependent containers form a base *X11 video display stack* ready to be extended and integrated into the docker host display.
 
-The *EarthWalkSoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode.  
+The *EarthWalkSoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *EarthWalkSoftware/kaptain-debian*:
+
+    FROM EarthWalkSoftware/Kaptain-debian:latest  
+
+and run the *kaptain* application (*/usr/bin/kaptain*), and pass the required options following the command.
 
 _____________________
 
