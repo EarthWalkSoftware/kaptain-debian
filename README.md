@@ -1,2 +1,2 @@
 # kaptain-debian
-The Kaptain menu generator in a Debian 9.2 docker container.
+Kaptain is a universal graphical front-end tool for creating dialog-based interfaces for command line programs, and a server for the graphical user interface of a program without directly using a graphical library.
