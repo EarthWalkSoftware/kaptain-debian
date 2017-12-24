@@ -26,8 +26,8 @@ _____________________
 
 *kaptain-debian* creates a docker container built on a *Debian 9.2* base image.  The *kaptain-debian* container is designed using layered containers:
 
-- *library/Debian:9.2* - the Debian 9.2 minimal base image,
-- *EarthWalkSoftware/Debian:9.2* - (modified *Nimmis/Ubuntu:latest*) to add supervisor functions,  
+- *library/debian:9.2* - the Debian 9.2 minimal base image,
+- *EarthWalkSoftware/debian:9.2* - (modified *Nimmis/Ubuntu:latest*) to add supervisor functions,  
 - *EarthWalkSoftware/docker-debian-base:9.2* - basic system and utility packages,
 - *EarthWalkSoftware/docker-debian-base-gui*, X11 and GTK packages plus container video integration,
 
