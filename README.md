@@ -37,7 +37,15 @@ The *EarthWalkSoftware/kaptain-debian* docker container installs the *Kaptain* p
 
     FROM EarthWalkSoftware/kaptain-debian:latest  
 
-and run the *kaptain* application (*/usr/bin/kaptain*), and pass the required options following the command.
+then run the *kaptain* application (*/usr/bin/kaptain*) and pass the required options following the command.
 
 _____________________
+
+### Using the container
+
+For use cases, refer to the *EarthWalkSoftware/kaptain-menu-debian* at
+
+  https://github.com/EarthWalkSoftware/kaptain-menu-debian
+
+for several samples of how to extend and use the *EarthWalkSoftware/kaptain-debian* container.
 
