@@ -12,7 +12,7 @@ When run as a standalone front-end dialog for command-line program execution, a 
   http://kaptain.sourceforge.net/  
 
 ### NOTE:
-The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version (*0.73-2*) of the source distribution by *mviereck/kaptain* at *GitHub*. For more details about this release, refer to:  
+The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version (*0.73-2*) of the source distribution from *mviereck/kaptain* at *GitHub*. For more details about this release, refer to:  
 
   https://github.com/mviereck/kaptain
 
@@ -35,7 +35,7 @@ These inter-dependent containers form a base *X11 video display stack* ready to 
 
 The *EarthWalkSoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *EarthWalkSoftware/kaptain-debian*:
 
-    FROM EarthWalkSoftware/Kaptain-debian:latest  
+    FROM EarthWalkSoftware/kaptain-debian:latest  
 
 and run the *kaptain* application (*/usr/bin/kaptain*), and pass the required options following the command.
 
