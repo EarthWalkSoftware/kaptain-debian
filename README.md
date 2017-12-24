@@ -3,7 +3,7 @@ _____________________
 
 ### Kaptain
 
-*Kaptain* is a universal graphical front-end tool for creating dialog-based interfaces for command-line programs, and an *API* for creating a graphical user interface for a command-line program without directly using a graphical library.
+*Kaptain* is a universal graphical front-end tool for creating dialog-based interfaces for command-line programs, and an *API* for creating a graphical user interface for a command-line program without having to learn a programming language or how to embed a graphical library in an application.
 
 When run as a standalone front-end dialog for command-line program execution, a simple script *grammar* is used to describe possible arguments for the program and *Kaptain* produces a graphical dialog for the user to configure command line arguments.
 
