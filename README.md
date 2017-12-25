@@ -12,7 +12,7 @@ When run as a standalone front-end dialog for command-line program execution, a 
   http://kaptain.sourceforge.net/  
 
 ### NOTE:
-The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version (*0.73-2*) of the source distribution from *mviereck/kaptain* at *GitHub*. For more details about this release, refer to:  
+The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from *mviereck/kaptain* at *GitHub*. For more details about this release, refer to:  
 
   https://github.com/mviereck/kaptain
 
