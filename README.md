@@ -28,7 +28,7 @@ _____________________
 
 - *library/debian:9.2* - the Debian 9.2 minimal base image,
 - *earthwalksoftware/docker-debian-base:1.0.0* - basic system and utility packages,
-- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 and supporting packages.
+- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 (client) and supporting packages.
 
 These inter-dependent containers form a basic X11 video display stack ready to be linked to the docker host display.
 
