@@ -48,3 +48,8 @@ For use cases, refer to the *earthwalksoftware/kaptain-menu-debian* at
 
 for several samples of how to extend and use the *earthwalksoftware/kaptain-debian* container.
 
+_____________________
+
+#### Licensed by Academic Free License v 3.0
+Read the license at https://github.com/EarthWalkSoftware/docker-alpine-htop/wiki/License
+
