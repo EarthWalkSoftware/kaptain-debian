@@ -28,9 +28,9 @@ _____________________
 
 - *library/debian:9.2* - the Debian 9.2 minimal base image,
 - *earthwalksoftware/docker-debian-base:1.0.0* - basic system and utility packages,
-- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 and GTK packages plus container video integration,
+- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 and supporting packages.
 
-These inter-dependent containers form a basic X11 video display stack ready to be extended and integrated into the docker host display.
+These inter-dependent containers form a basic X11 video display stack ready to be linked to the docker host display.
 
 The *earthwalksoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *earthwalksoftware/kaptain-debian*:
 
