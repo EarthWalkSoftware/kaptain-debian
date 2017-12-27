@@ -24,17 +24,17 @@ _____________________
 
 ### kaptain-debian
 
-*kaptain-debian* creates a docker container built on a *Debian 9.2* base image.  The *kaptain-debian* container is designed using layered containers:
+*kaptain-debian* creates a docker container built on *Debian 9.2*.  The *kaptain-debian* container is designed using layered containers:
 
 - *library/debian:9.2* - the Debian 9.2 minimal base image,
-- *EarthWalkSoftware/docker-debian-base:9.2* - basic system and utility packages,
-- *EarthWalkSoftware/docker-debian-base-gui:9.2*, X11 and GTK packages plus container video integration,
+- *earthwalksoftware/docker-debian-base:1.0.0* - basic system and utility packages,
+- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 and GTK packages plus container video integration,
 
 These inter-dependent containers form a basic X11 video display stack ready to be extended and integrated into the docker host display.
 
-The *EarthWalkSoftware/kaptain-debian:latest* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *EarthWalkSoftware/kaptain-debian*:
+The *earthwalksoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (server) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *earthwalksoftware/kaptain-debian*:
 
-    FROM EarthWalkSoftware/kaptain-debian:latest  
+    FROM earthWalksoftware/kaptain-debian:latest  
 
 then run the *kaptain* application (*/usr/bin/kaptain*) and pass the required options following the command.
 
@@ -42,9 +42,9 @@ _____________________
 
 ### Using the container
 
-For use cases, refer to the *EarthWalkSoftware/kaptain-menu-debian* at
+For use cases, refer to the *earthwalksoftware/kaptain-menu-debian* at
 
   https://github.com/EarthWalkSoftware/kaptain-menu-debian
 
-for several samples of how to extend and use the *EarthWalkSoftware/kaptain-debian* container.
+for several samples of how to extend and use the *earthwalksoftware/kaptain-debian* container.
 
