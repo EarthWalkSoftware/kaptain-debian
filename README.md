@@ -50,6 +50,6 @@ for several samples of how to extend and use the *earthwalksoftware/kaptain-debi
 
 _____________________
 
-#### Licensed by Academic Free License v 3.0
+#### Licensed by The MIT License
 Read the license at https://github.com/EarthWalkSoftware/kaptain-debian/wiki/License
 
