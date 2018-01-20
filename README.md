@@ -11,7 +11,7 @@ When run as a standalone front-end dialog for command-line program execution, a 
 
 ### NOTE:  
 
-The version of [Kaptain](http://kaptain.sourceforge.net/) used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from [mviereck/kaptain](https://github.com/mviereck/kaptain) at [GitHub](https://github.com). For more details about this release, refer to [mviereck/kaptain](https://github.com/mviereck/kaptain).  For an example how how it is used, refer to [mviereck/x11docker](https://github.com/mviereck/x11docker). 
+The version of [Kaptain](http://kaptain.sourceforge.net/) used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source from [mviereck/kaptain](https://github.com/mviereck/kaptain) at [GitHub](https://github.com). For more details about this release, refer to [mviereck/kaptain](https://github.com/mviereck/kaptain).  For an example how how it is used, refer to [mviereck/x11docker](https://github.com/mviereck/x11docker). 
 
 _____________________
 
