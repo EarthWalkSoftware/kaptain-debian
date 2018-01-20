@@ -11,21 +11,21 @@ When run as a standalone front-end dialog for command-line program execution, a 
 
 ### NOTE:  
 
-The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from [mviereck/kaptain](https://github.com/mviereck/kaptain) at [GitHub](https://github.com). For more details about this release, refer to [mviereck/kaptain](https://github.com/mviereck/kaptain).  For an example how how it is used, refer to [mviereck/x11docker](https://github.com/mviereck/x11docker). 
+The version of [Kaptain](http://kaptain.sourceforge.net/) used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from [mviereck/kaptain](https://github.com/mviereck/kaptain) at [GitHub](https://github.com). For more details about this release, refer to [mviereck/kaptain](https://github.com/mviereck/kaptain).  For an example how how it is used, refer to [mviereck/x11docker](https://github.com/mviereck/x11docker). 
 
 _____________________
 
 ### kaptain-debian
 
-*kaptain-debian* creates a docker container built on *Debian 9.2*.  The *kaptain-debian* container is designed using layered containers:
+*kaptain-debian* creates a docker container built on the *Debian* Linux distribution.  The *kaptain-debian* container is designed using layered containers:
 
-- *library/debian:9.2* - the Debian 9.2 minimal base image,
-- *earthwalksoftware/docker-debian-base:1.0.0* - basic system and utility packages,
-- *earthwalksoftware/docker-debian-base-gui:1.0.0*, X11 (client) and supporting packages.
+- *library/debian* - the Debian 9.2 minimal base image,
+- *earthwalksoftware/docker-debian-base* - basic system and utility packages,
+- *earthwalksoftware/docker-debian-base-gui*, X11 (client) and supporting packages.
 
 These inter-dependent containers form a basic X11 video display stack ready to be linked to the docker host display.
 
-The *earthwalksoftware/kaptain-debian* docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (daemon) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from *earthwalksoftware/kaptain-debian*:
+The [earthwalksoftware/kaptain-debian](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/) docker container installs the *Kaptain* package and configures the container for use by a calling container.  The container exposes port *80*, allowing the container to be used in *API* (daemon) mode. The most straight forward use of *Kaptain* is to extend the Dockerfile from [earthwalksoftware/kaptain-debian](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/):
 
     FROM earthWalksoftware/kaptain-debian:latest  
 
@@ -35,14 +35,10 @@ _____________________
 
 ### Using the container
 
-For use cases, refer to the *earthwalksoftware/kaptain-menu-debian* at
-
-  https://github.com/EarthWalkSoftware/kaptain-menu-debian
-
-for several samples of how to extend and use the *earthwalksoftware/kaptain-debian* container.
+Refer to the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-menu-debian/wiki) for several samples of how to extend and use the *earthwalksoftware/kaptain-debian* container.
 
 _____________________
 
 #### Licensed by The MIT License
-Read the license at https://github.com/EarthWalkSoftware/kaptain-debian/wiki/License
+Read the license at the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
 
