@@ -1,24 +1,17 @@
 # EarthWalkSoftware/kaptain-debian
 _____________________
 
-### Kaptain
+### [Kaptain](http://kaptain.sourceforge.net/)  
 
-*Kaptain* is a universal graphical front-end tool for creating dialog-based interfaces for command-line programs, and an *API* for creating a graphical user interface for a command-line program without having to learn a programming language or how to embed a graphical library in an application.
+[Kaptain](http://kaptain.sourceforge.net/) is a universal graphical front-end tool for creating dialog-based interfaces for command-line programs, and an *API* for creating a graphical user interface for a command-line program without having to learn a programming language or how to embed a graphical library in an application.  
 
-When run as a standalone front-end dialog for command-line program execution, a simple script *grammar* is used to describe possible arguments for the program and *Kaptain* produces a graphical dialog for the user to configure command line arguments.
+When run as a standalone front-end dialog for command-line program execution, a simple script *grammar* is used to describe possible arguments for the program and [Kaptain](http://kaptain.sourceforge.net/) produces a graphical dialog for the user to configure command line arguments.  
 
-*Kaptain* is a *Source Forge* project.  For further details about *Kaptain*, it's capabilities, samples, links to documentation, and source code, visit
+[Kaptain](http://kaptain.sourceforge.net/) is a *Source Forge* project.  For further details about [Kaptain](http://kaptain.sourceforge.net/), it's capabilities, samples, links to documentation, and source code, visit http://kaptain.sourceforge.net/  
 
-  http://kaptain.sourceforge.net/  
+### NOTE:  
 
-### NOTE:
-The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from *mviereck/kaptain* at *GitHub*. For more details about this release, refer to:  
-
-  https://github.com/mviereck/kaptain
-
-or to *mviereck/x11docker* at *GitHub*:
-
-  https://github.com/mviereck/x11docker
+The version of *Kaptain* used for the *kaptain-debian* container is a slightly modified version ( *0.73-2* ) of the source distribution from [mviereck/kaptain](https://github.com/mviereck/kaptain) at [GitHub](https://github.com). For more details about this release, refer to [mviereck/kaptain](https://github.com/mviereck/kaptain).  For an example how how it is used, refer to [mviereck/x11docker](https://github.com/mviereck/x11docker). 
 
 _____________________
 
