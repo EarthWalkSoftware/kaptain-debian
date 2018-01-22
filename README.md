@@ -31,6 +31,12 @@ The [earthwalksoftware/kaptain-debian](https://hub.docker.com/r/earthwalksoftwar
 
 then run the *kaptain* application (*/usr/bin/kaptain*) and pass the required options following the command.
 
+____
+
+### [Docker Tags](https://github.com/EarthWalkSoftware/debian-base-gui/wiki/Docker-Tags)
+
+**docker pull** will pull the **latest** image by default, but you can specify other versions (or tags) in the Docker **Tags** link, above.  For a description of how the debian-base-gui tags work, go to the [Docker Tags](https://github.com/EarthWalkSoftware/debian-base-gui/wiki/Docker-Tags) page of the [EarthWalk Software debian-base-gui Wiki](https://github.com/EarthWalkSoftware/debian-base-gui/wiki).
+
 _____________________
 
 #### Read more 
