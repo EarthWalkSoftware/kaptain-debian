@@ -33,12 +33,7 @@ then run the *kaptain* application (*/usr/bin/kaptain*) and pass the required op
 
 _____________________
 
-### Using the container
+#### Read more 
 
-Refer to the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-menu-debian/wiki) for several samples of how to extend and use the *earthwalksoftware/kaptain-debian* container.
-
-_____________________
-
-#### Licensed by The MIT License
-Read the license at the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
+More information is available at [EarthWalk Software kaptain-debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
 
