@@ -39,7 +39,7 @@ ____
 
 Other Docker versions (or tags) can be selected on the Docker [Tags](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/tags/) page.  The most stable Docker version is the 3-number tag (1.x.x, 2.x.x) which ends in a 0 (1.x.0, 2.x.0), otherwise it is a patch to the previous tag, and is designed to apply fixes or experimental features.  When the fixes / features are stable, the middle number is increased by and the last number is reset to 0.
 
-Other GitHub source tags can be selected in the **Branch** selection box.
+Other GitHub source tags, if available, can be selected in the **Branch** selection box, above.
 
 For a information on how the debian-base-gui tags work, go to the [Docker Tags](https://github.com/EarthWalkSoftware/debian-base-gui/wiki/Docker-Tags) page of the [EarthWalk Software kaptain-debian Wiki](https://github.com/EarthWalkSoftware/kaptaindebian/wiki).
 
