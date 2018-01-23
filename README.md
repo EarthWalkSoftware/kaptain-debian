@@ -35,9 +35,11 @@ ____
 
 ### [Docker Tags](https://github.com/EarthWalkSoftware/debian-base-gui/wiki/Docker-Tags)
 
-**docker pull** will pull the **latest** image by default.  The **latest** tag is based on the **master** source, which is the development version, and quite possibly unstable.  
+**docker pull** will pull the **latest** image by default.  The Docker **latest** tag is based on the GitHub **master** source, which is the development version, and quite possibly unstable.  
 
-You can specify other versions (or tags) in the Docker [Tags](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/tags/) link, above.  
+Other Docker versions (or tags) can be selected on the Docker [Tags](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/tags/) page.  
+
+Other GitHub source tags can be selected in the **Branch** selection box.
 
 For a information on how the debian-base-gui tags work, go to the [Docker Tags](https://github.com/EarthWalkSoftware/debian-base-gui/wiki/Docker-Tags) page of the [EarthWalk Software kaptain-debian Wiki](https://github.com/EarthWalkSoftware/kaptaindebian/wiki).
 
