@@ -1,4 +1,4 @@
-# [EarthWalkSoftware/kaptain-debian](https://github.com/EarthWalkSoftware/kaptain-debian)
+# [EarthWalkSoftware/kaptain-debian](https://github.com/EarthWalkSoftware/kaptain-debian/wiki)
 _____________________
 
 ### [Kaptain](http://kaptain.sourceforge.net/)  
