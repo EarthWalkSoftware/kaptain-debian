@@ -13,5 +13,7 @@ _____________________
 
 ### kaptain-debian
 
-*kaptain-debian* creates a docker container built on the *Debian* Linux distribution.  The documentation for earthwalksoftware/kaptain-debian has been re-located to the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
+*kaptain-debian* creates a docker container built on the *Debian* Linux distribution.  
+
+The documentation for [earthwalksoftware/kaptain-debian](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/) has been re-located to the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
 
