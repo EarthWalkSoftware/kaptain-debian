@@ -7,13 +7,13 @@ _____________________
 
 When run as a standalone front-end dialog for command-line program execution, a simple script *grammar* is used to describe possible arguments for the program and [Kaptain](http://kaptain.sourceforge.net/) produces a graphical dialog for the user to configure command line arguments.  
 
-[Kaptain](http://kaptain.sourceforge.net/) is a *Source Forge* project.  For further details about [Kaptain](http://kaptain.sourceforge.net/), it's capabilities, samples, links to documentation, and source code, visit http://kaptain.sourceforge.net/  
+[Kaptain](http://kaptain.sourceforge.net/) is a [Source Forge](http://sourceforge.net/) project.  For further details about [Kaptain](http://kaptain.sourceforge.net/), it's capabilities, samples, links to documentation, and source code, visit http://kaptain.sourceforge.net/  
 
 _____________________
 
 ### kaptain-debian
 
-*kaptain-debian* creates a docker container built on the *Debian* Linux distribution.  
+*kaptain-debian* creates a docker image built on the *Debian* Linux distribution and the most recent version of [Kaptain](http://kaptain.sourceforge.net/).  
 
 The documentation for [earthwalksoftware/kaptain-debian](https://hub.docker.com/r/earthwalksoftware/kaptain-debian/) has been re-located to the [EarthWalk Software Kaptain-Debian Wiki](https://github.com/EarthWalkSoftware/kaptain-debian/wiki).
 
