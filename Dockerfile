@@ -34,7 +34,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # =========================================================================
 #
 #     Refer to 
-#        pkgcache - a simple "plug in" for Docker build 
+#        pkgcache - a simple "plug in" for Docker builds 
 #     at
 #        https://github.com/EarthWalkSoftware/earthwalksoftware.github.io/wiki/pkgcache----a-simple-%22plug-in%22-for-Docker-build
 #
